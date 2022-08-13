@@ -4,6 +4,7 @@
   padding: 40px 0;
   background: #fff;
   font-family: "Arvo", serif;
+  background-color: black;
 }
 
 .page_404 img {
@@ -11,7 +12,9 @@
 }
 
 .four_zero_four_bg {
-  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  /*background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);*/
+  background-image: url(images/matthew-henry-2Ts5HnA67k8-unsplash.jpg);
+  background-repeat: no-repeat;
   height: 400px;
   background-position: center;
 }
@@ -24,14 +27,24 @@
   font-size: 80px;
 }
 
+.text-center img {
+  object-position: center;
+  max-width: 260px;
+}
+
 .link_404 {
   color: #fff !important;
   padding: 10px 20px;
-  background: #39ac31;
+  /*background: #39ac31;*/
+  background: #caa4a4;
   margin: 20px 0;
   display: inline-block;
 }
 
 .contant_box_404 {
   margin-top: -50px;
+}
+
+.contant_box_404 p {
+  color: #fff;
 }
